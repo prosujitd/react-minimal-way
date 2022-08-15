@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>React - minimal way</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1>React - Minimal Way through CDN link</h1>
+    <div id="app"></div>
+
+    <h1>Things to Remember:</h1>
+    <h3>React JS</h3>
+    <li>JS Library for building UI</li>
+    <li>Allows us to create reusable UI components</li>
+    <li>Open source JS library for building UI</li>
+    <li>Initial release by Jordan Waler in 2013</li>
+    <li>Now under Facebook</li>
+    <li>Additional library: routing, rendering, etc</li>
+    <li>Module bundler: JSX, Webpack, Grunt, Babel.js</li>
+
+    <h3>Server Package</h3>
+    <p>There are two ways:</p>
+    <li>Serve package i.e. npm install -g serve</li>
+    <li>Live server package that can detect changes for VS Code extension</li>
+
+    <h3>Babel CDN</h3>
+    <li>Transpile ES6 to ES5</li>
+    <li>
+      HTML written inside javascript in JSX which needs to compiled and done
+      through Babel
+    </li>
+    <li>Here index.js consist jsx code</li>
+    <li>
+      Must import babel CDN and two files - react.development.js and
+      react-dom.development.js files on index.html file
+    </li>
+
+    <h1>Create-React-APP</h1>
+    <li>
+      Official tool to install react-app developed by same team who developed
+      react
+    </li>
+    <li>Offers a modern build setup with no configuration</li>
+    <li>
+      Installation by npm(using current version) or npx (using latest version)
+    </li>
+    <li>
+      If you've previously installed create-react-app globally via npm install
+      -g create-react-app, we recommend you uninstall the package using npm
+      uninstall -g create-react-app or yarn global remove create-react-app to
+      ensure that npx always uses the latest version.
+    </li>
+    <li>npx always use the latest version</li>
+
+    <h3>Installation</h3>
+    <li>npx create-react-app my-app --use-npm </li>
+    <li>npx create-react-app my-app --use-yarn</li>
+    <li>npm start or yarn start</li>
+    <li>npm run build or yarn build</li>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/babel-standalone@6/babel.min.js"
+    ></script>
+
+    <script type="text/babel" src="./index.js"></script>
+  </body>
+</html>
