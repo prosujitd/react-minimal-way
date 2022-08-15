@@ -1,14 +1,14 @@
 # React - Minimal Way through CDN link
 ## Latest way
-'''
+```
 const domContainer = document.querySelector('#app');
 const root = ReactDOM.createRoot(domContainer);
-'''
+```
 ## Traditional Way - Deprecated from v18+
-'''
+```
 const container = document.getElementById('app');
 ReactDOM.render('ok',container);
-'''
+```
 
 # Things to Remember:
 ## React JS
@@ -35,9 +35,9 @@ There are two ways:
     - If you've previously installed create-react-app globally via npm install -g create-react-app, we recommend you uninstall the package using npm uninstall -g create-react-app or yarn global remove create-react-app to ensure that npx always uses the latest version.
     - npx always use the latest version
 ## Installation
-'''
+```
 npx create-react-app my-app --use-npm
 npx create-react-app my-app --use-yarn
 npm start or yarn start
 npm run build or yarn build
-''' 
+```
